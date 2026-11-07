@@ -1,5 +1,13 @@
 __pycache__/
 *.pyc
 .venv/
-.vscode/settings.json
-**/results/*quick*
+.vscode/
+**/results/
+*.zip
+/run.py
+/VIVA_PREP.md
+/evidence/
+/q1_hashing/test_hash_table.py
+/q1_hashing/test_inventory.py
+/q2_graph/test_graph.py
+/q3_concurrency/test_experiment.py

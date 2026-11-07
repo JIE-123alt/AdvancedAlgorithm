@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Q1 Pharmacy inventory",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/q1_hashing/inventory_system.py",
+      "cwd": "${workspaceFolder}/q1_hashing",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Q2 Course prerequisites",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/q2_graph/main.py",
+      "cwd": "${workspaceFolder}/q2_graph",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Q3 Full ten round experiment",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/q3_concurrency/experiment.py",
+      "cwd": "${workspaceFolder}/q3_concurrency",
+      "console": "integratedTerminal",
+      "noDebug": true
+    }
+  ]
+}
